@@ -461,9 +461,23 @@
             </td>
           </tr>
 
-
-
-          
+          <tr>
+            <td class="sno">06</td>
+            <td>
+              <div class="topic-name">National Curriculum Framework for School Education 2023</div>
+              <div class="meta">Resource Person: Niteesh Kumar Singh &nbsp;·&nbsp; Certificate ID: CBSE/TRG/R/2026/892</div>
+            </td>
+            <td><span class="badge offline"><span class="dot"></span>Offline</span></td>
+            <td class="hrs">6 hrs</td>
+            <td class="date">16 Aug 2026</td>
+            <td class="thumb-wrap"><img src="https://raw.githubusercontent.com/amispam/training/main/images/offline_2.jpg" alt="Certificate 6 preview" class="thumb" data-src="https://raw.githubusercontent.com/amispam/training/main/images/offline_2.jpg"></td>
+            <td>
+              <a class="dl-btn" href="https://raw.githubusercontent.com/amispam/training/main/files/offline_2.pdf" download>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+                Download PDF
+              </a>
+            </td>
+          </tr>
         </tbody>
       </table>
     </div>
@@ -516,7 +530,8 @@
       document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
 
       // Summary
-      const rows = document.querySelectorAll('table tbody tr');      let off = 0, on = 0, tot = 0, cnt = 0;
+      const rows = document.querySelectorAll('table tbody tr');
+      let off = 0, on = 0, tot = 0, cnt = 0;
       rows.forEach(row => {
         const cells = row.querySelectorAll('td');
         if (cells.length < 4) return;
